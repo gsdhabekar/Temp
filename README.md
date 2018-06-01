@@ -51,3 +51,23 @@ console.log(isPalindrome("noon"));
         return num !== 1;
     }
     
+ 5.Sum of Numbers using arguments
+    function sum() {
+        var s = 0;
+        for (var i=0; i < arguments.length; i++) {
+            s += arguments[i];
+        }
+        return s;
+    }
+    console.log(sum(2, 3));         // 5
+    console.log(sum(-10, 1));       // -9
+    console.log(sum(1, 1, 1, 1));   // 4
+
+6.Sort Array of String AND Number
+    function strDes(a, b) {
+       if (a>b) return 1;
+       else if (a<b) return -1;
+       else return 0;
+     }
+     var a2=["1", "a", "A", "b","3"];
+     a2.sort(strDes);
