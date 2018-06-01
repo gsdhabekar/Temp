@@ -71,3 +71,5 @@ console.log(isPalindrome("noon"));
      }
      var a2=["1", "a", "A", "b","3"];
      a2.sort(strDes);
+7.Top 10 ES6 Features
+    https://webapplog.com/es6/
