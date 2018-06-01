@@ -73,3 +73,7 @@ console.log(isPalindrome("noon"));
      a2.sort(strDes);
 7.Top 10 ES6 Features
     https://webapplog.com/es6/
+    
+8.Finding longest string in array
+    var longest = arr.sort(function (a, b) { return b.length - a.length; })[0];
+    var longest = arr.reduce(function (a, b) { return a.length > b.length ? a : b; });
